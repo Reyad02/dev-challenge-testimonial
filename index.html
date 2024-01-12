@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+        * {
+            font-family: 'Sora', sans-serif;
+            color: #52525A;
+        }
+
+        body {
+            background-color: #FAFAF9;
+
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80%;
+            margin: 5% auto;
+            padding: 5% 2%;
+        }
+
+        .google {
+            max-width: 20%;
+            height: 20%;
+        }
+
+        .top-of-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .left {
+            width: 48%;
+        }
+
+        .right {
+            width: 48%;
+        }
+
+        .star img {
+            vertical-align: middle;
+        }
+
+        .top,
+        .bottom {
+            display: flex;
+        }
+
+        .top {
+            margin-bottom: 5%;
+        }
+
+        .space {
+            width: 40%;
+        }
+
+        .card {
+            padding: 2%;
+            width: 60%;
+            background-color: #FFFFFF;
+            box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+            border-radius: 10px;
+            font-size: 1rem;
+        }
+
+        li {
+            list-style: none;
+            font-size: 0.875rem;
+        }
+
+        li>img {
+            vertical-align: middle;
+        }
+
+        ul {
+            padding-left: 0;
+        }
+
+        h2,
+        h4 {
+            color: #18181B;
+        }
+
+        h2 {
+            font-size: 2.25rem;
+        }
+
+        .left-para {
+            font-size: 1.25rem;
+        }
+
+        .first-icon {
+            background-color: #F5C044;
+            padding: 1%;
+            border-radius: 50%;
+        }
+
+
+        @media screen and (max-width: 640px) {
+            .container {
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+                width: auto;
+            }
+
+            .left {
+                margin-right: 8%;
+                width: auto;
+            }
+
+            .right {
+                width: auto;
+            }
+
+            .card {
+                width: 47%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="left">
+                <div class="first-icon-div">
+                    <span class="first-icon">⭐</span>
+                </div>
+                <h2>Reviewers</h2>
+                <p class="left-para">Reviewers is where people can access guidelines, checklist, and other tools to
+                    assist
+                    the in reviewing
+                    papers or manuscript. It provides a structured approach to ensure that the review process is
+                    thorough,
+                    efficient, and consistent</p>
+                <ul>
+                    <li><img src="dccl--responsive-testimonial-page/Done_ring_round_fill.svg" alt=""> Checklist to
+                        Review an
+                        Academic Paper</li>
+                    <li><img src="dccl--responsive-testimonial-page/Done_ring_round_fill.svg" alt=""> Peer Review
+                        checklist
+                    </li>
+                    <li><img src="dccl--responsive-testimonial-page/Done_ring_round_fill.svg" alt=""> Checklist for
+                        Editors,
+                        Reviewers, and Authors of SPIE Journals</li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <div class="space">
+                    </div>
+                    <div class="card">
+                        <div class="top-of-card">
+                            <img class="google" src="dccl--responsive-testimonial-page/google-testimonial.png" alt="">
+                            <div class="star">
+                                <img src="dccl--responsive-testimonial-page/Star_fill.svg" alt="">
+                                <img src="dccl--responsive-testimonial-page/Star_fill.svg" alt="">
+                                <img src="dccl--responsive-testimonial-page/Star_fill.svg" alt="">
+                                <img src="dccl--responsive-testimonial-page/Star_fill.svg" alt="">
+                                <img src="dccl--responsive-testimonial-page/Star_fill_gray.svg" alt="">
+                            </div>
+
+                        </div>
+                        <h4>Samantha Lee</h4>
+                        <p>The checklist ensures that the review process is thorough</p>
+                    </div>
+
+                </div>
+                <div class="bottom">
+                    <div class="card">
+                        <div class="top-of-card">
+                            <img class="google" src="dccl--responsive-testimonial-page/meta-testimonial.png" alt="">
+                            <div class="star">
+                                <img src="dccl--responsive-testimonial-page/Star_fill.svg" alt="">
+                                <img src="dccl--responsive-testimonial-page/Star_fill.svg" alt="">
+                                <img src="dccl--responsive-testimonial-page/Star_fill.svg" alt="">
+                                <img src="dccl--responsive-testimonial-page/Star_fill.svg" alt="">
+                                <img src="dccl--responsive-testimonial-page/Star_fill.svg" alt="">
+                            </div>
+
+                        </div>
+                        <h4>Rachel Patel</h4>
+                        <p>I highly recommend the Writecream Business Description</p>
+                    </div>
+                    <div class="space">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
